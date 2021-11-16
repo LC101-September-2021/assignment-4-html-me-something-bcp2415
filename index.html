@@ -7,11 +7,9 @@
   <body>
     <!-- Write your HTML in this file! -->
     <header>
-      <div id="topOfPage">
-        <h1>Job History</h1>
-        <blockquote>
-          &quot;&hellip;unknown, yet well known&hellip;&quot;
-        </blockquote>
+      <div>
+        <h1 id="mainHeading">Job History</h1>
+        <blockquote>&quot;Is it about a bicycle?&quot; he asked.</blockquote>
       </div>
     </header>
     <main>
@@ -22,7 +20,7 @@
           be fun.
         </p>
 
-        <figure>
+        <figure class="figContainer">
           <img src="./images/lamarhs.jpg" />
           <figcaption>Lamar High School, Houston, Texas</figcaption>
         </figure>
@@ -35,7 +33,7 @@
       </article>
 
       <h2>Philosopher</h2>
-      <figure>
+      <figure class="figContainer">
         <img src="./images/plato.jpg" alt="statue of Plato" />
         <figcaption>Plato&hellip;</figcaption>
       </figure>
@@ -56,7 +54,7 @@
           papers and gave a few talks.
         </p>
 
-        <figure>
+        <figure class="figContainer">
           <img
             src="./images/mansfield.jpg"
             alt="author standing in front of Mansfield College"
@@ -67,7 +65,7 @@
           </figcaption>
         </figure>
 
-        <p>
+        <p id="testP" class="funParagraph">
           Then it was time to re-job. For several reasons, I elected to return
           to teaching Latin.
         </p>
@@ -75,7 +73,7 @@
 
       <h2>Teacher</h2>
 
-      <figure>
+      <figure class="figContainer">
         <img src="./images/forum.jpg" alt="The Roman forum" width="570px" . />
         <figcaption>The Roman forum</figcaption>
       </figure>
@@ -86,16 +84,16 @@
           But my learning again declined over time, and I miss being challenged
           in my work.
         </p>
-
-        <p>
-          I've been studying web development technologies for the past couple of
-          years, and hope to change careers in 2022.
-        </p>
       </article>
 
       <h2>Web Developer</h2>
 
       <article>
+        <p>
+          I've been studying web development technologies for the past couple of
+          years, and hope to change careers in 2022.
+        </p>
+
         <p>Coding combines several things I loved about philosophy:</p>
 
         <ul>
@@ -112,15 +110,23 @@
           <li>Git</li>
           <li>
             Vim: I wrote my di&varsigma;&varsigma;ertation and research papers
-            in &xvee;im. Among other things, it removes the enormous distraction
-            of watching a word processor do typesetting badly at the same time
-            as one is trying to focus on the content one is writing.
+            in &xvee;im. &xvee;im and
+            <img
+              class="latex"
+              src="https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg"
+              alt="LaTeX logo"
+            />
+            in combination separate content from arrangement on the page (or
+            screen), thus removing an enormous distraction from a writer's mind.
+            And once having learned &xvee;im, one can almost write without
+            moving hands away from keyboard&hellip;dispensing with another
+            distraction.
           </li>
         </ul>
       </article>
     </main>
-    <footer>
-      <p>
+    <footer id="pageBottom">
+      <p id="footText">
         &copy; Brian D. Prince, 2021. Material on this page may be used freely
         as a basis for half-remembered anecdotes, object lessons, or witticisms
         at the expense of philosophers.&xlArr;
