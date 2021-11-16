@@ -1,1 +1,23 @@
 /* Write your CSS here! */
+#topOfPage {
+  background-image: url("./images/delphi.jpg");
+  width: 100vw;
+  height: 175px;
+  margin: 15px;
+  padding: 0px;
+  border: 5px solid #eee;
+}
+
+#header-banner {
+}
+
+ul {
+  list-style-type: lower-greek;
+}
+
+.latex {
+  display: inline;
+  position: relative;
+  top: 6px;
+  height: 1em;
+}
